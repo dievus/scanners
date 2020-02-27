@@ -1,4 +1,4 @@
-#!bin/python3
+#!/usr/bin/env python3
 #
 import socket
 import subprocess
@@ -50,4 +50,5 @@ t2 = datetime.now()
 #Time total
 total = t2 - t1
 print("Port scan completed in "+str(total))
-        
+print("Press any button to continue...")
+input()
